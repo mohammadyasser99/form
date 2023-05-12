@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            new form
+        </title>
+    </head>
+
+    <body style="font-size: 20px;background-color:rgb(46,110,110);">
+
+        
+<fieldset >
+
+    <legend style="background-color: rgb(95,158,160);">personal data</legend>
+
+        <form method="post">
+    <fieldset style="background-color: rgb(95,158,160)">
+        <legend style="background-color: rgb(62,133,139);"><h2>your name:</h2> </legend>
+
+        <label for="firstname">First name:</label>
+  <input type="text" id="firstname" name="firstname"><br>
+  <label for="lastname">Last name:</label>
+  <input type="text" id="lastname" name="lastname">
+
+
+    </fieldset>
+    <br>
+
+    <table >
+        <!---phone row-->
+<tr>
+    <th>
+        <td><label for="phone">your phone</label></td>
+    </th>
+    <th>
+        <td>: <input type="tel" id="phone" name="phone"></td>
+    </th>
+</tr>
+        <!---Email row-->
+        <tr>
+            <th>
+                <td><label for="email">Email</label></td>
+            </th>
+            <th>
+                <td>: <input type="email" id="Email" name="Email"></td>
+            </th>
+        </tr>
+                <!---password row-->
+<tr>
+    <th>
+        <td><label for="password">password</label></td>
+    </th>
+    <th>
+        <td>: <input type="password" id="password" name="password"></td>
+    </th>
+</tr>
+        <!---re-password row-->
+        <tr>
+            <th>
+                <td><label for="rpassword">Re-phone</label></td>
+            </th>
+            <th>
+                <td>: <input type="password" id="rpassword" name="rpassword"></td>
+            </th>
+        </tr>
+
+
+
+    </table>
+
+    <input type="radio" id="male" name="gender"> <label for="male">male</label><br>
+    <input type="radio" id="female" name="gender"> <label for="female">female</label>
+    <br>    
+    <br>
+    <input type="checkbox" id="student"><label for="student" > student</label>
+    <br>
+    <input type="checkbox" id="graduate"><label for="graduate" > graduate</label>
+    <label for="university">university</label>
+    <select id="university">
+<option>
+    auc
+</option>
+
+    </select>
+    <br>
+    <br>
+
+    <input type="submit" value="submit" name="submit">
+</form>
+
+
+
+</fieldset>
+
+
+    </body>
+</html>
